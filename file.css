@@ -8,18 +8,19 @@
 
 .logo{
   width: 4%;
-  height: 6%;
+  height: 6.5%;
   margin-top: 50px;
 }
 .iso{
-  width: 20%;
-  height: 68%;
-  margin-top: 6px;
+  width: 22%;
+  height: 100%;
+  margin-top: -52px;
+  margin-left: 250px;
 }
 .boxiso{
  background: linear-gradient(93.7deg, #E8FBFF 4.09%, #9FDCF5 111.29%);
  width: 330px;
- height: 70px;
+ height: 66px;
   margin-left:122px;
   border-radius: 10px;
   border-top-right-radius: 50px;
@@ -65,13 +66,14 @@ margin-top: -250px;
  }
  .text{
 font-size: 40px;
-text-align: center;
-margin-left: 21px;
+text-align: left;
+margin-left: 10px;
  color:#005568;
+ padding: 10px;
 
 }
-.one{ width: 537px;
-      height: 415px;
+.one{ width: 552px;
+      height: 430px;
       border-radius: px;
       float: right;
       margin-top: -490px;
@@ -168,7 +170,7 @@ span{ width:100px;
 }
 
 a{text-decoration: none;
-  
+   color:#005568;
    }
 
  .imgroll{
@@ -287,7 +289,7 @@ margin-left: 470px;
   .teacher{
   height: 55px;
   width: 53px;
-  margin-left: 237px;
+  margin-left: 249px;
   margin-top: -50px;
   display: flex;
   
@@ -296,17 +298,18 @@ margin-left: 470px;
   width: 35px;
    margin-right: 40px;
    margin-left: 30px;
-   margin-top: 67px;
+   margin-top: 68px;
    display:flex;
+  margin-left: 50px;
  } 
  #part form#form1 p{
-   margin-left:70px;
+   margin-left:90px;
    margin-top: -30px;
    color: #005568;
    font-size: 30px;
- }
+}
  #partt form p{
-    margin-left:290px;
+    margin-left:299px;
    margin-top: -40px;
    color: #005568;
    font-size: 30px;
@@ -321,18 +324,14 @@ margin-left: 470px;
   margin-bottom: 1px;
   display: flex;
 }
-.footer .img{
 
-  float: right;
-  justify-items: right;
-}
 .footer a img{
 
-  height: 30px;
-  width: 36px;
+  height: 36px;
+  width: 40px;
   margin-top:140px;
  float: right;
- 
+  justify-items: right;
  margin-left: 20px;
  }
 .footer .div{
