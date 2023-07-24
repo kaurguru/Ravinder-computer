@@ -1,0 +1,194 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Trebuchet MS;
+}
+.body{
+	background-color: black;
+}
+html{
+	font-size: 62.5%;
+}
+a{
+	text-decoration: none;
+  color: black;
+}
+
+.navbar{
+	display: flex;
+	float: right;
+   background :linear-gradient(93.7deg, #E8FBFF 4.09%, #9FDCF5 111.29%);
+   width: 100%;
+   height: 5rem;
+   justify-content: right;
+
+}
+.navbar div{
+	margin: 0rem 3rem;
+	font-size: 2rem;
+	text-transform: capitalize;
+	text-align: center;
+	padding: 1rem 0;
+}
+.navbar div a{
+	color: black; 
+}
+.container{
+	display: flex
+	justify-content: center;
+	align-items: center;
+	margin: 15rem auto;
+	background :linear-gradient(93.7deg, #E8FBFF 4.09%, #9FDCF5 111.29%);
+	padding: 3rem;
+	float: center;
+    max-width: 20rem;
+	height: 15rem;
+      border-radius: 2rem;
+      box-shadow: 4px 4px 4px 4px #7a7a7a;
+     transition: all 3s ease;
+
+}
+.container div:hover , .container:active{
+  background-color: white;
+  box-shadow: 4px 4px 4px 4px #7a7a7a;
+  border-radius: 2rem;
+  color: black;
+}
+
+.container div{
+	font-size: 2.2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-weight: 600;
+    padding: .3rem;
+}
+
+.qr-img{
+	max-width: 20rem;
+
+}
+.qr-code{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 1rem 0rem;
+}
+.head h3{
+	text-align: center;
+	margin: .7rem 0;
+  font-size: 2.5rem;
+
+}
+.upi-id{
+	text-align: center;
+	font-size: 1.5rem;
+}
+
+/*
+---------------------------------
+payment section start
+----------------------------------*/
+
+.section{
+	max-width: 40rem;
+	max-height: 100rem;
+/*	background-color: pink;*/
+	/*display: flex;
+	justify-content: center;
+	align-items: center;*/
+	flex-direction: column;
+	float: center;
+	margin: 10rem auto;
+	padding: 3rem 0;
+	border-radius: 10%;
+	box-shadow: 4px 4px 4px 4px #7a7a7a ;
+}
+
+main{
+	width: 100vw;
+	min-height: 100vh;
+	font-size: 1.2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+.container1{
+	background-color: white;
+	max-width: 70rem;
+	min-height: 40rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	padding: 0.5rem 1.5rem;
+	font-weight: 500;
+	font-size: 1.7rem;
+	font-family: AmpleSoft Pro;
+}
+.left{
+	flex-basis: 40.8%;
+	margin-right: 1rem;
+
+}
+.right{
+	flex-basis: 40.8%;
+	margin-right: 1rem;
+}
+form{
+	padding: 1rem;
+}
+h3{
+	margin-top: 1rem;
+	color: grey;
+	font-family:Trebuchet MS ;
+}
+form input[type="text"]{
+	width: 100%;
+	padding: 0.5rem 0.7rem;
+	margin: 0.5rem 0rem;
+	outline: none;
+}
+#zip{
+	display: flex;
+	margin-top: 0.5rem;
+	gap: 1.5rem;
+}
+#zip select{
+	padding: 0.5rem 0.7rem;
+}
+#zip input[type="number"]{
+padding: 0.5rem 0.7rem;
+margin-left: 5px;
+}
+form img{
+	margin-top: .7rem;
+}
+input[type="submit"]{
+	width: 100%;
+	padding: 1rem 1.5rem;
+	background: blue;
+	color: white;
+	border: none;
+	outline: none;
+	margin-top: 1rem;
+	cursor: pointer;
+}
+input[type="submit"]:hover{
+	background-color: grey;
+}
+@media only screen and (max-width:650px){
+	.container1{
+		flex-direction: column;
+	}
+	body{
+		overflow: hidden;
+	}
+		
+	}
+	.icon{
+	
+		height:5rem ;
+		width: 5rem;
+		margin: 1rem 2.5rem;
+
+	}
